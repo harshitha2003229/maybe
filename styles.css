@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://media.istockphoto.com/id/1288044238/photo/defocused-background-with-red-heart-shapes.jpg?s=612x612&w=0&k=20&c=JXdDl8T2cB0RoJvVbC6rvm8BtRbKsDb4H1jG10sINQI='); /* Background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color:white;
+    text-align:center;
+}
+
+header {
+    background-color: #c70039; /* Cherry red */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    opacity: 80%;
+}
+nav {
+    background-color: #c70039; /* Cherry red */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+nav a:hover {
+    background-color: #999;
+}
+section {
+    padding: 20px;
+}
+footer {
+    background-color: #c70039; /* Cherry red */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    opacity: 70%;
+}
+button {
+    background-color: #c70039; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
